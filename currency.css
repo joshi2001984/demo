@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.all-content{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.jumbo{
+    height: 35%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(4, 3,92);
+}
+.main{
+    height: 35%;
+    width: 60%;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: -7%;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(165, 147, 66);
+    text-transform: uppercase;
+}
+.main input{
+    height: 42px;
+    width: 200px;
+    border-radius: 9px;
+    border: 1px solid #ccc;
+}
+label{
+    font-weight: bold;
+    color: rgb(4, 4,92);
+}
+.form{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+button{
+    height: 42px;
+    width: 200px;
+    background-color: rgb(4, 4, 92);
+    color: white;
+    border-radius: 6px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 90px;
+    margin-left: 20px;
+    /* background-color:rgb(4, 4,92) ; */
+    color: white;
+
+}
+.Output{
+    font-size: 30px;
+}
+button:hover{
+    background-color: rgb(17, 17, 161);
+    cursor: pointer;
+
+}
